@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply font-lato;
+}
+
+.login-bg {
+	background-image: url("/public/images/login-bg.jpg");
+	background-size: cover;
+	background-position: center center;
+}
